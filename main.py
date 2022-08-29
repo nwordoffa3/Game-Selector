@@ -472,7 +472,7 @@ def hangman():
     
     buttons = []
     guessed = []
-    hangmanPics = [pygame.image.load('Hangman\images\hangman0.png'), pygame.image.load('Hangman\images\hangman1.png'), pygame.image.load('Hangman\images\hangman2.png'), pygame.image.load('Hangman\images\hangman3.png'), pygame.image.load('Hangman\images\hangman4.png'), pygame.image.load('Hangman\images\hangman5.png'), pygame.image.load('Hangman\images\hangman6.png')]
+    hangmanPics = [pygame.image.load('assets\images\hangman0.png'), pygame.image.load('assets\images\hangman1.png'), pygame.image.load('assets\images\hangman2.png'), pygame.image.load('assets\images\hangman3.png'), pygame.image.load('assets\images\hangman4.png'), pygame.image.load('assets\images\hangman5.png'), pygame.image.load('assets\images\hangman6.png')]
 
     limbs = 0
     
@@ -501,7 +501,7 @@ def hangman():
 
 
     def randomWord():
-        file = open('Hangman\words.txt')
+        file = open('assets\words.txt')
         f = file.readlines()
         i = random.randrange(0, len(f) - 1)
 
