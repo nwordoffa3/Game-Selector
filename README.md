@@ -32,6 +32,6 @@ To run the game collection, you must have Python installed on your computer. You
 Once you have Python installed, you can run the game collection by running the following command in your terminal:
 
 Copy code
-python game-selector.py
+`python game-selector\main.py`
 ## Acknowledgements
 I would like to thank the creators of the Python libraries used in this project for making it easier to build these games.
