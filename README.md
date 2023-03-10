@@ -19,13 +19,13 @@ Two players take turns placing their X or O in a 3x3 grid. The goal is to get th
 ## Dependencies
 This project uses the following Python libraries:
 
-tkinter.messagebox
-turtle
-button
-pygame
-sys
-random
-numpy
++ tkinter.messagebox
++ turtle
++ button
++ pygame
++ sys
++ random
++ numpy
 ## Installation
 To run the game collection, you must have Python installed on your computer. You can download Python from the official website: https://www.python.org/downloads/
 
